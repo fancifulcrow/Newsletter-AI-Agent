@@ -1,0 +1,7 @@
+ollama:
+  host: "http://localhost:11434"
+  model: "qwen3:8b"
+
+topics:
+  - "phones"
+  - "war"
