@@ -41,6 +41,7 @@ class NewsCollectorPlugin:
                     article = {
                         "title": article["title"],
                         "source": article["source"]["name"],
+                        "url": url,
                         "content": self.extract_text_from_url(url)
                     }
                     articles.append(article)

@@ -49,16 +49,27 @@ async def main():
     raw_articles = await kernel.invoke(news_collector["search_news"])
 
     prompt = """
-        You are an AI assistant that creates a detailed and insightful daily newsletter based on the following news articles.
+        You are an AI assistant that writes a detailed and grounded newsletter based on recent news articles. You are not a marketing assistant, and you must not add fluff or emojis.
 
-        Your job is to create your own article(s) by:
-        1. Extracting the most important points from the articles.
-        2. Identifying the sources and group similar news together along with their links.
-        3. Detect and comment on any apparent bias or tone (e.g., sensationalism, political leaning).
-        4. Highlight contradictions or differing perspectives across articles.
-        5. Format the newsletter with clear section titles.
+        Your task is to create full-length article-style sections by:
+        1. Extracting diverse and newsworthy topics.
+        2. Grouping similar articles together.
+        3. Commenting on any apparent bias or tone (e.g., sensationalism, political leaning).
+        4. Highlighting contradictions or differing viewpoints across sources.
+        5. Writing in a natural, grounded tone—avoid bullet points, headings like “Key Takeaways”, or emojis.
+        6. Elaborating thoughtfully: each section should be 1-2 full paragraphs.
+        7. Starting each section with a **short and clear headline**, followed by the body text in prose.
 
-        It is important that you reply with only your articles.
+        **The structure should be:**
+        - A headline (single line, Title Case)
+        - 1 or 2 paragraphs explaining the news
+        - A line break (then the next section)
+
+        DO NOT include:
+        - A summary or outline
+        - Key takeaways
+        - Emojis or final sign-offs like "Stay tuned"
+        - Anything before or after the newsletter (no greetings or conclusions)
 
         News Articles:
         {{$input}}
@@ -66,18 +77,18 @@ async def main():
         Newsletter:
     """
 
-    news_summarizer = kernel.add_function(
-        function_name="NewsSummarizer",
-        plugin_name="summarizePlugin",
+    news_writer = kernel.add_function(
+        function_name="NewsWriter",
+        plugin_name="NewsWriterPlugin",
         prompt_template_config=PromptTemplateConfig(
             template=prompt,
-            name="summarize",
+            name="writer",
             template_format="semantic-kernel",
             execution_settings=execution_settings
         ),
     )
 
-    newsletter = await kernel.invoke(news_summarizer, input=raw_articles)
+    newsletter = await kernel.invoke(news_writer, input=raw_articles)
     newsletter = str(newsletter)
     newsletter = re.sub(r"<think>.*?</think>", "", newsletter, flags=re.DOTALL).strip() # Remove the think tag
 
