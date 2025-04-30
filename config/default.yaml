@@ -3,5 +3,5 @@ ollama:
   model: "qwen3:8b"
 
 topics:
-  - "phones"
-  - "war"
+  - "technology"
+  - "politics"
