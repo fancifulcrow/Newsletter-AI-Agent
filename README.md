@@ -60,20 +60,38 @@ This allows you to automate daily delivery of your newsletter without manual int
 ```markdown
 # Newsletter: Key Election and Policy Developments
 
-1. **Wales Votes on Climate Emergency**
-The Welsh government has passed a landmark law declaring a climate emergency, backed by the Welsh Assembly. Environment Minister Bethan Jenkins emphasized the need for public support to meet emissions targets and transition to renewable energy. A consultation on the 2050 net-zero goal will follow, with plans to phase out fossil fuels and boost green infrastructure.
+1. **Wales Votes on Climate Emergency**  
+The Welsh government has passed a landmark law declaring a climate emergency, backed by  
+the Welsh Assembly. Environment Minister Bethan Jenkins emphasized the need for public  
+support to meet emissions targets and transition to renewable energy. A consultation on  
+the 2050 net-zero goal will follow, with plans to phase out fossil fuels and boost green  
+infrastructure.
 
-2. **UK Election Results: Conservatives Win, Labour Faces Challenges**
-The Conservative Party secured a narrow victory in the UK general election, though their majority is smaller than expected. Labour leader Kier Starmer is addressing the party’s struggles to gain public trust. Meanwhile, Green Party co-leader Elizabeth May retained her Saanich-Gulf Islands seat in Canada, while the party’s overall vote share dropped to 1.2%—a significant decline.
+2. **UK Election Results: Conservatives Win, Labour Faces Challenges**  
+The Conservative Party secured a narrow victory in the UK general election, though their  
+majority is smaller than expected. Labour leader Kier Starmer is addressing the party’s  
+struggles to gain public trust. Meanwhile, Green Party co-leader Elizabeth May retained  
+her Saanich-Gulf Islands seat in Canada, while the party’s overall vote share dropped to  
+1.2%—a significant decline.
 
-3. **UK’s New Energy Strategy: 40 GW of Onshore Wind by 2030**
-The UK government unveiled a plan to invest £3.3 billion in renewable energy, targeting 40 GW of onshore wind capacity by 2030. The strategy includes expanding offshore wind, hydrogen projects, and grid upgrades. National Grid will play a key role in managing the transition, with public consultations to shape the rollout.
+3. **UK’s New Energy Strategy: 40 GW of Onshore Wind by 2030**  
+The UK government unveiled a plan to invest £3.3 billion in renewable energy, targeting  
+40 GW of onshore wind capacity by 2030. The strategy includes expanding offshore wind,  
+hydrogen projects, and grid upgrades. National Grid will play a key role in managing the  
+transition, with public consultations to shape the rollout.
 
-4. **Green Party’s Elizabeth May: Defending Environmental Leadership**
-In Canada, Green Party co-leader Elizabeth May won her fifth term in Saanich-Gulf Islands, citing her grassroots campaign and focus on environmental issues. She criticized mainstream media for promoting a two-party race and defended the Greens’ role in economic sovereignty. However, the party’s overall vote share fell, with co-leader Jonathan Pedneault finishing fifth in Quebec.
+4. **Green Party’s Elizabeth May: Defending Environmental Leadership**  
+In Canada, Green Party co-leader Elizabeth May won her fifth term in Saanich-Gulf  
+Islands, citing her grassroots campaign and focus on environmental issues. She  
+criticized mainstream media for promoting a two-party race and defended the Greens’ role  
+in economic sovereignty. However, the party’s overall vote share fell, with co-leader  
+Jonathan Pedneault finishing fifth in Quebec.
 
-5. **Climate and Energy: A Global Focus**
-From Wales’ climate emergency to the UK’s renewable energy push, the focus on decarbonization remains central. Leaders are balancing immediate policy goals with long-term sustainability, while parties like the Greens face challenges in expanding their influence beyond environmental issues.
+5. **Climate and Energy: A Global Focus**  
+From Wales’ climate emergency to the UK’s renewable energy push, the focus on  
+decarbonization remains central. Leaders are balancing immediate policy goals with  
+long-term sustainability, while parties like the Greens face challenges in expanding  
+their influence beyond environmental issues.
 
-Stay tuned for updates on how these developments shape global climate and energy policies.
+**Stay tuned for updates on how these developments shape global climate and energy policies.**
 ```
